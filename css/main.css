@@ -1,14 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
 body {
-  font-family: ;
+  font-family: inter;
+  font-size: 15px;
   color: white;
   margin: 0;
   padding: 0;
+  background-color: hsl(233, 47%, 7%);
 }
 
 img {
+  display: block;
   width: 100%;
   height: auto;
-  filter: ;
+  filter: hue-rotate();
+  margin: 0;
+  border-radius: 2% 2% 0 0;
+  opacity: 60%;
+}
+
+.image-wrap {
+  background-color: hsl(277, 64%, 61%);
+}
+
+h1 {
+  text-align: center;
+  white-space: nowrap;
 }
 
 .inserts {
@@ -18,10 +35,13 @@ img {
 
 .purple-text {
   color: hsl(277, 64%, 61%);
+  text-decoration: none;
 }
 
 main {
   background-color: hsl(244, 38%, 16%);
+  border-radius: 2%;
+  margin: 5%;
 }
 
 .container {
@@ -32,4 +52,15 @@ main {
 
 p {
   text-align: center;
+}
+
+.text-area {
+  display: block;
+  margin: 0;
+  padding: 20% 10% 30% 10%;
+  width: auto;
+}
+
+.discover-paragraph {
+  font-weight: 400;
 }
